@@ -23,7 +23,7 @@ class QuizDataSource: NSObject, UITableViewDataSource {
         let currData = data[indexPath.row]
         cell.TopicTitle.text = currData.title
         cell.TopicDesc.text = currData.desc
-        cell.TopicImg.image = currData.img
+        cell.TopicImg.image = currData.img[indexPath.row]
         
         return cell
     }
