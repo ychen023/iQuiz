@@ -12,6 +12,8 @@ class TopicCell: UITableViewCell {
     @IBOutlet weak var TopicTitle: UILabel!
     @IBOutlet weak var TopicDesc: UILabel!
     
+    var cellTouched: (() -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
