@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090A5DB82835DB0A007C02EC /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A5DB72835DB0A007C02EC /* Reachibility.swift */; };
+		090A5DBC28366A1C007C02EC /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 090A5DBB28366A1B007C02EC /* questions.json */; };
 		09928D642830DA92006F8AB5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09928D632830DA92006F8AB5 /* QuestionViewController.swift */; };
 		09928D662830E587006F8AB5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09928D652830E587006F8AB5 /* Question.swift */; };
 		09928D682830E676006F8AB5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09928D672830E676006F8AB5 /* Quiz.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090A5DB72835DB0A007C02EC /* Reachibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+		090A5DBB28366A1B007C02EC /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = questions.json; path = Assets.xcassets/questions.json; sourceTree = "<group>"; };
 		09928D632830DA92006F8AB5 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		09928D652830E587006F8AB5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		09928D672830E676006F8AB5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				09928D6D2831DB98006F8AB5 /* FinishedViewController.swift */,
 				09928D652830E587006F8AB5 /* Question.swift */,
 				09928D672830E676006F8AB5 /* Quiz.swift */,
+				090A5DBB28366A1B007C02EC /* questions.json */,
+				090A5DB72835DB0A007C02EC /* Reachibility.swift */,
 				09F17051282A600300C37617 /* Assets.xcassets */,
 				09F17053282A600300C37617 /* LaunchScreen.storyboard */,
 				09F17056282A600300C37617 /* Info.plist */,
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090A5DBC28366A1C007C02EC /* questions.json in Resources */,
 				09F17055282A600300C37617 /* LaunchScreen.storyboard in Resources */,
 				09F1706D282BA63F00C37617 /* TopicCell.xib in Resources */,
 				09F17052282A600300C37617 /* Assets.xcassets in Resources */,
@@ -168,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F1704D282A600200C37617 /* ViewController.swift in Sources */,
+				090A5DB82835DB0A007C02EC /* Reachibility.swift in Sources */,
 				09928D642830DA92006F8AB5 /* QuestionViewController.swift in Sources */,
 				09928D682830E676006F8AB5 /* Quiz.swift in Sources */,
 				09928D6C2831D19F006F8AB5 /* AnswerViewController.swift in Sources */,

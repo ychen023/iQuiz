@@ -25,11 +25,7 @@ class AnswerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-//        if let rootVC = navigationController?.viewControllers.first {
-//            self.navigationController?.viewControllers = [rootVC, self]
-//        }
-//        
+ 
         let currQuestion : QuestionClass = quiz[categoryIndex].questions[currentQuestionIndex]
         let answerIndex : Int = Int(currQuestion.answer)! - 1
         

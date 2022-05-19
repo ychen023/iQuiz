@@ -75,7 +75,6 @@ class QuestionViewController: UIViewController {
         super.viewDidLoad()
         answerButtons = [A0, A1, A2, A3]
         
-//         Set up data taken from previous screen
         let currQuestion : QuestionClass = quiz[categoryIndex].questions[currentQuestionIndex]
         QuestionTextLabel.text = currQuestion.text
         
@@ -89,7 +88,6 @@ class QuestionViewController: UIViewController {
         super.viewWillAppear(animated) // No need for semicolon
         answerButtons = [A0, A1, A2, A3]
         
-//         Set up data taken from previous screen
         let currQuestion : QuestionClass = quiz[categoryIndex].questions[currentQuestionIndex]
         QuestionTextLabel.text = currQuestion.text
         

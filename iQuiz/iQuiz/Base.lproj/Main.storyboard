@@ -32,7 +32,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="iQuiz" id="fYJ-OX-b6g">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="sga-0c-lR1">
+                        <barButtonItem key="rightBarButtonItem" id="sga-0c-lR1">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Xfy-hH-8pU">
                                 <rect key="frame" x="313" y="5" width="95" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -228,7 +228,7 @@
                             <constraint firstItem="cfq-oN-Ns2" firstAttribute="centerX" secondItem="sR5-HK-7QP" secondAttribute="centerX" id="t9X-Ff-Mga"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="R9m-kf-b2w"/>
+                    <navigationItem key="navigationItem" title="iQuiz" id="R9m-kf-b2w"/>
                     <connections>
                         <outlet property="CorrectAnswerLabel" destination="cfq-oN-Ns2" id="vNM-lY-VoJ"/>
                         <outlet property="Correctness" destination="m7a-uF-Iuv" id="9Yt-tG-IAp"/>
